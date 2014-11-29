@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>774538F0-E5CD-4489-9D83-8100D0B9FE3C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>vota</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>EAFF62086A5BF87A49F7EAD8CD19D5ACEDA3B2BD</key>
+		<string>https://github.com/royhsu/vota.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>vota.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>EAFF62086A5BF87A49F7EAD8CD19D5ACEDA3B2BD</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/royhsu/vota.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EAFF62086A5BF87A49F7EAD8CD19D5ACEDA3B2BD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EAFF62086A5BF87A49F7EAD8CD19D5ACEDA3B2BD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>vota</string>
+		</dict>
+	</array>
+</dict>
+</plist>
