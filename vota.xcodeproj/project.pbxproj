@@ -35,6 +35,8 @@
 		B0CE2C261A2B062100E8F4D8 /* Vota.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Vota.xcdatamodel; sourceTree = "<group>"; };
 		B0CE2C281A2B082900E8F4D8 /* VoteItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoteItem.swift; sourceTree = "<group>"; };
 		B0CE2C2A1A2B082A00E8F4D8 /* Vote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vote.swift; sourceTree = "<group>"; };
+		B0CE2C2C1A2B15F600E8F4D8 /* vota-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "vota-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		B0CE2C2D1A2B1A1500E8F4D8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		B0FEA22F1A29964F00530E48 /* vota.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vota.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0FEA2331A29964F00530E48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0FEA2341A29964F00530E48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				B0FEA23B1A29964F00530E48 /* Images.xcassets */,
 				B0FEA23D1A29964F00530E48 /* LaunchScreen.xib */,
 				B0FEA2321A29964F00530E48 /* Supporting Files */,
+				B0CE2C2C1A2B15F600E8F4D8 /* vota-Bridging-Header.h */,
 			);
 			path = vota;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 		D224D067431D727D3E88C816 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B0CE2C2D1A2B1A1500E8F4D8 /* CoreData.framework */,
 				CE44CD2387E26C4CA59B71C4 /* libPods.a */,
 			);
 			name = Frameworks;
@@ -420,6 +424,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "vota-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -432,6 +437,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "vota-Bridging-Header.h";
 			};
 			name = Release;
 		};
