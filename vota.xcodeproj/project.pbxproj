@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		258F4346FCAFF3EADF838944 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE44CD2387E26C4CA59B71C4 /* libPods.a */; };
 		B030C53E1A2AF24100E9A51E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B030C53D1A2AF24100E9A51E /* HomeViewController.swift */; };
+		B0CE2C271A2B062100E8F4D8 /* Vota.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B0CE2C251A2B062100E8F4D8 /* Vota.xcdatamodeld */; };
+		B0CE2C291A2B082900E8F4D8 /* VoteItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CE2C281A2B082900E8F4D8 /* VoteItem.swift */; };
+		B0CE2C2B1A2B082A00E8F4D8 /* Vote.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CE2C2A1A2B082A00E8F4D8 /* Vote.swift */; };
 		B0FEA2351A29964F00530E48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FEA2341A29964F00530E48 /* AppDelegate.swift */; };
 		B0FEA23A1A29964F00530E48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0FEA2381A29964F00530E48 /* Main.storyboard */; };
 		B0FEA23C1A29964F00530E48 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0FEA23B1A29964F00530E48 /* Images.xcassets */; };
@@ -29,6 +32,9 @@
 /* Begin PBXFileReference section */
 		0EB1A5CB5847DE088F89FD34 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		B030C53D1A2AF24100E9A51E /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B0CE2C261A2B062100E8F4D8 /* Vota.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Vota.xcdatamodel; sourceTree = "<group>"; };
+		B0CE2C281A2B082900E8F4D8 /* VoteItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoteItem.swift; sourceTree = "<group>"; };
+		B0CE2C2A1A2B082A00E8F4D8 /* Vote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vote.swift; sourceTree = "<group>"; };
 		B0FEA22F1A29964F00530E48 /* vota.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vota.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0FEA2331A29964F00530E48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0FEA2341A29964F00530E48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +76,16 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		B0CE2C241A2B05FF00E8F4D8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B0CE2C251A2B062100E8F4D8 /* Vota.xcdatamodeld */,
+				B0CE2C2A1A2B082A00E8F4D8 /* Vote.swift */,
+				B0CE2C281A2B082900E8F4D8 /* VoteItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		B0FEA2261A29964F00530E48 = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +109,7 @@
 		B0FEA2311A29964F00530E48 /* vota */ = {
 			isa = PBXGroup;
 			children = (
+				B0CE2C241A2B05FF00E8F4D8 /* Model */,
 				B0FEA2341A29964F00530E48 /* AppDelegate.swift */,
 				B030C53D1A2AF24100E9A51E /* HomeViewController.swift */,
 				B0FEA2381A29964F00530E48 /* Main.storyboard */,
@@ -271,7 +288,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0CE2C271A2B062100E8F4D8 /* Vota.xcdatamodeld in Sources */,
 				B0FEA2351A29964F00530E48 /* AppDelegate.swift in Sources */,
+				B0CE2C2B1A2B082A00E8F4D8 /* Vote.swift in Sources */,
+				B0CE2C291A2B082900E8F4D8 /* VoteItem.swift in Sources */,
 				B030C53E1A2AF24100E9A51E /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -480,6 +500,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B0CE2C251A2B062100E8F4D8 /* Vota.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B0CE2C261A2B062100E8F4D8 /* Vota.xcdatamodel */,
+			);
+			currentVersion = B0CE2C261A2B062100E8F4D8 /* Vota.xcdatamodel */;
+			name = Vota.xcdatamodeld;
+			path = ../Vota.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = B0FEA2271A29964F00530E48 /* Project object */;
 }

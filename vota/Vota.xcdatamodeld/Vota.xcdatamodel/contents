@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6252" systemVersion="14B25" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Vote" representedClassName="Vote" syncable="YES">
+        <attribute name="voteTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="voteItem" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="VoteItem" inverseName="vote" inverseEntity="VoteItem" syncable="YES"/>
+    </entity>
+    <entity name="VoteItem" representedClassName="VoteItem" syncable="YES">
+        <attribute name="voteItemBody" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="voteItemBodyImage" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="voteItemBodyURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="voteItemTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="vote" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Vote" inverseName="voteItem" inverseEntity="Vote" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="VoteItem" positionX="-63" positionY="-18" width="128" height="118"/>
+        <element name="Vote" positionX="-54" positionY="18" width="128" height="73"/>
+    </elements>
+</model>
