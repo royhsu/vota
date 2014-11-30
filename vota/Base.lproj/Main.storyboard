@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="HomeViewController" customModule="vota" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -15,7 +15,44 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NqO-WL-A0P">
+                                <rect key="frame" x="254" y="285" width="92" height="30"/>
+                                <state key="normal" title="create button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="createAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Leq-Jx-u8K"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SaA-aS-dd4">
+                                <rect key="frame" x="261" y="323" width="79" height="30"/>
+                                <state key="normal" title="vote button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="voteAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ZIL-H8-58n"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2v9-Fi-ici">
+                                <rect key="frame" x="253" y="361" width="95" height="30"/>
+                                <state key="normal" title="results button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="resultsAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="xdS-yq-ZYf"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="NqO-WL-A0P" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="1bc-P0-15U"/>
+                            <constraint firstItem="NqO-WL-A0P" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="ERm-TN-ekL"/>
+                            <constraint firstItem="SaA-aS-dd4" firstAttribute="top" secondItem="NqO-WL-A0P" secondAttribute="bottom" constant="8" symbolic="YES" id="Gcu-l6-waD"/>
+                            <constraint firstItem="SaA-aS-dd4" firstAttribute="centerX" secondItem="NqO-WL-A0P" secondAttribute="centerX" id="Hxs-Oa-RzP"/>
+                            <constraint firstItem="2v9-Fi-ici" firstAttribute="top" secondItem="SaA-aS-dd4" secondAttribute="bottom" constant="8" symbolic="YES" id="QDw-Na-Zd6"/>
+                            <constraint firstItem="2v9-Fi-ici" firstAttribute="centerX" secondItem="SaA-aS-dd4" secondAttribute="centerX" id="bj0-DL-i3l"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
