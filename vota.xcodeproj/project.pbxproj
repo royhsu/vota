@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		258F4346FCAFF3EADF838944 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE44CD2387E26C4CA59B71C4 /* libPods.a */; };
+		67AAE1A12A876E9CFB7E3635 /* libPods-votaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF868128F8253D2D2FC90165 /* libPods-votaTests.a */; };
 		B030C53E1A2AF24100E9A51E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B030C53D1A2AF24100E9A51E /* HomeViewController.swift */; };
 		B0CE2C271A2B062100E8F4D8 /* Vota.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B0CE2C251A2B062100E8F4D8 /* Vota.xcdatamodeld */; };
 		B0CE2C291A2B082900E8F4D8 /* VoteItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CE2C281A2B082900E8F4D8 /* VoteItem.swift */; };
@@ -31,12 +32,15 @@
 
 /* Begin PBXFileReference section */
 		0EB1A5CB5847DE088F89FD34 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		84DDEA85C598518F859A5D71 /* Pods-votaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-votaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-votaTests/Pods-votaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B030C53D1A2AF24100E9A51E /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		B0CE2C261A2B062100E8F4D8 /* Vota.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Vota.xcdatamodel; sourceTree = "<group>"; };
 		B0CE2C281A2B082900E8F4D8 /* VoteItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoteItem.swift; sourceTree = "<group>"; };
 		B0CE2C2A1A2B082A00E8F4D8 /* Vote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vote.swift; sourceTree = "<group>"; };
 		B0CE2C2C1A2B15F600E8F4D8 /* vota-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "vota-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 		B0CE2C2D1A2B1A1500E8F4D8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B0CE2C301A2B27D400E8F4D8 /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/build/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
+		B0CE2C321A2B27E400E8F4D8 /* libPods-MagicalRecord.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-MagicalRecord.a"; path = "Pods/build/Debug-iphoneos/libPods-MagicalRecord.a"; sourceTree = "<group>"; };
 		B0FEA22F1A29964F00530E48 /* vota.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vota.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0FEA2331A29964F00530E48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0FEA2341A29964F00530E48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,7 +51,9 @@
 		B0FEA2491A29965000530E48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0FEA24A1A29965000530E48 /* votaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = votaTests.swift; sourceTree = "<group>"; };
 		B5DB4F21E5EB4190C063169C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		BF868128F8253D2D2FC90165 /* libPods-votaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-votaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE44CD2387E26C4CA59B71C4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5A742C638AFAD13D3C9C441 /* Pods-votaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-votaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-votaTests/Pods-votaTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67AAE1A12A876E9CFB7E3635 /* libPods-votaTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +81,8 @@
 			children = (
 				0EB1A5CB5847DE088F89FD34 /* Pods.debug.xcconfig */,
 				B5DB4F21E5EB4190C063169C /* Pods.release.xcconfig */,
+				84DDEA85C598518F859A5D71 /* Pods-votaTests.debug.xcconfig */,
+				F5A742C638AFAD13D3C9C441 /* Pods-votaTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -118,7 +127,6 @@
 				B0FEA23B1A29964F00530E48 /* Images.xcassets */,
 				B0FEA23D1A29964F00530E48 /* LaunchScreen.xib */,
 				B0FEA2321A29964F00530E48 /* Supporting Files */,
-				B0CE2C2C1A2B15F600E8F4D8 /* vota-Bridging-Header.h */,
 			);
 			path = vota;
 			sourceTree = "<group>";
@@ -126,6 +134,7 @@
 		B0FEA2321A29964F00530E48 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B0CE2C2C1A2B15F600E8F4D8 /* vota-Bridging-Header.h */,
 				B0FEA2331A29964F00530E48 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -151,8 +160,11 @@
 		D224D067431D727D3E88C816 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B0CE2C321A2B27E400E8F4D8 /* libPods-MagicalRecord.a */,
+				B0CE2C301A2B27D400E8F4D8 /* libPods.a */,
 				B0CE2C2D1A2B1A1500E8F4D8 /* CoreData.framework */,
 				CE44CD2387E26C4CA59B71C4 /* libPods.a */,
+				BF868128F8253D2D2FC90165 /* libPods-votaTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -183,9 +195,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0FEA2511A29965000530E48 /* Build configuration list for PBXNativeTarget "votaTests" */;
 			buildPhases = (
+				FA7091086A4FE721C0E3C01C /* Check Pods Manifest.lock */,
 				B0FEA2401A29965000530E48 /* Sources */,
 				B0FEA2411A29965000530E48 /* Frameworks */,
 				B0FEA2421A29965000530E48 /* Resources */,
+				ABFB3F063F2CE3FDA82DA980 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +270,36 @@
 
 /* Begin PBXShellScriptBuildPhase section */
 		6A7574657059E9975058634E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ABFB3F063F2CE3FDA82DA980 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-votaTests/Pods-votaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA7091086A4FE721C0E3C01C /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -443,6 +487,7 @@
 		};
 		B0FEA2521A29965000530E48 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84DDEA85C598518F859A5D71 /* Pods-votaTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -455,13 +500,19 @@
 				);
 				INFOPLIST_FILE = votaTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "vota-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vota.app/vota";
 			};
 			name = Debug;
 		};
 		B0FEA2531A29965000530E48 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5A742C638AFAD13D3C9C441 /* Pods-votaTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -470,7 +521,12 @@
 				);
 				INFOPLIST_FILE = votaTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "vota-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vota.app/vota";
 			};
 			name = Release;

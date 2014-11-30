@@ -14,6 +14,21 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-votaTests-AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-votaTests-MagicalRecord.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-votaTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,17 +37,32 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>200B6ADC372039A4FECD5646</key>
+		<key>40C66149D5A04E6698AA10E3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2C352E2CE49AB538DCFD9E46</key>
+		<key>66A5FC02B339BCFE87625A75</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>60C082A80078A0A63DED0CB7</key>
+		<key>676F737CCFD8BBA05D2D89D6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7899FE758F2FD893129A39E5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BDE85B46355C06E3D31570A6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D7872A3FB26AA5BF777344E0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
